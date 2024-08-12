@@ -1,0 +1,417 @@
+/* font 1 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* font 2 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+}
+.container{
+     max-width: 1200px;
+     margin: 0 auto;
+}
+.nav__content{
+     display: flex;
+     padding-top: 46px;
+     padding-bottom: 35px;
+     justify-content: space-between;
+     align-items: center;
+}
+.nav__center{
+     padding-top: 10px;
+     display: flex;
+     gap: 32px;
+}
+.nav__center a{
+     color: #192252;
+     font-family: 'Inter';
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 19.36px;
+}
+.base__btn{
+     height: 47px;
+     padding: 14px 16px 14px 16px;
+     border-radius: 4px;
+     background: #0E1734;
+     font-family: 'Inter';
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 19.36px;
+     color: #fff;
+     border: 1px solid #0E1734;
+}
+.main__left h1{
+     font-family: 'Montserrat';
+     font-size: 48px;
+     font-weight: 600;
+     line-height: 72px;
+     letter-spacing: -0.01em;
+     width: 587px;
+     height: 144px; 
+     color: #192252; 
+     padding-top: 135px;
+}
+.main__content p{
+     font-family: 'Inter';
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     width: 485px;
+     height: 81px;
+     color: #848FAC;  
+     margin-top: 24px;
+     margin-bottom: 32px;
+}
+.main__content{
+     padding: 80px 0;
+     display: flex;
+     gap: 17px;
+     margin-bottom: 80px;
+}
+.house{
+     transform: translatey(90px);
+     margin-left: 24px;
+     margin-right: 24px;
+}
+.banner1__content{
+     display: flex;
+     gap: 126px;
+     padding-bottom: 80px;
+}
+.banner1__left{
+     padding-top: 80px;
+}
+.banner1__right{
+     padding-top: 185px;
+}
+.banner1__right h1{
+     font-family: 'Montserrat';
+     font-size: 36px;
+     font-weight: 600;
+     line-height: 54px;
+     letter-spacing: -0.01em;
+     color: #192252;
+     margin-bottom: 24px;
+}
+.banner1__right p{
+     font-family: 'Inter';
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     color: #848FAC;
+     margin-bottom: 16px;
+}
+.btn1{
+     margin-top: 16px;
+}
+.bannertop__left h1{
+     font-family: 'Montserrat';
+     font-size: 36px;
+     font-weight: 600;
+     line-height: 54px;
+     letter-spacing: -0.01em;
+     color: #192252;
+     margin-top: 113px;
+}
+.banner2{
+     padding-top: 80px;
+     padding-bottom: 80px;
+}
+.bannertop__left p{
+     margin-top: 24px;
+     font-family: 'Inter';
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     color: #848FAC;
+}
+.bannertop__left{
+     width: 584px;
+     height: 159px;     
+}
+.banner2__top{
+     display: flex;
+     gap: 126px;
+     margin-bottom: 32px;
+}
+.banner__bottom{
+     display: flex;
+}
+.bannerbottom__right{
+     padding-left: 126px;
+     width: 584px;
+     height: 159px;
+}
+.bannerbottom__right h1{
+     padding-top: 142px;
+     font-family: 'Montserrat';
+     font-size: 36px;
+     font-weight: 600;
+     line-height: 54px;
+     letter-spacing: -0.01em;
+     color: #192252;
+}
+.bannerbottom__right p{
+     font-family: 'Inter';
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     color: #848FAC;
+}
+.info{
+     padding-top: 80px ;
+     text-align: center;
+     margin-bottom: 88px;
+}
+.info h1{
+     font-family: 'Montserrat';
+     font-size: 36px;
+     font-weight: 600;
+     line-height: 54px;
+     letter-spacing: -0.01em;
+     margin-bottom: 24px;
+     color: #192252;
+}
+.info p{
+     font-family: Inter;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     color: #848FAC; 
+     margin-bottom: 32px;    
+}
+.content__c{
+     display: flex;
+     gap: 24px;
+     padding-bottom: 80px;
+}
+.content__c .h1{
+     font-family: 'Montserrat';
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 36px;
+     margin-top: 32px;     
+     margin-bottom: 16px;
+     color: #000;
+}
+.content__c .p1{
+     font-family: Inter;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     color: #848FAC;     
+     margin-bottom: 32px;
+}
+.content__c .a1{
+     font-family: Inter;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     color: #424F7B;     
+}
+.ending__left h5{
+     font-family: 'Inter';
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     color: #424F7B;     
+}
+.ending__left h1{
+     font-family: 'Montserrat';
+     font-size: 36px;
+     font-weight: 600;
+     line-height: 54px;
+     letter-spacing: -0.01em;
+     color: #192252;
+}
+.ending__left p{
+     font-family: 'Inter';
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     width: 384px;
+     height: 81px;
+     color: #848FAC;
+     margin-bottom: 32px;
+}
+.ending__left a{
+     margin-left: 24px;
+     font-family: 'Inter';
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 19.36px;
+     color:  #0E1734;
+     
+}
+.ending__content{
+     display: flex;
+     align-items: center;
+     gap: 207px;
+}
+.ending__top{
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 24px;
+     align-items: center;
+}
+.ending__top h1{
+     font-family: 'Montserrat';
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 36px;
+     color: #424F7B;
+}
+.icondown{
+     background-color: #FFECE2;
+     border-radius: 50%;
+     padding: 8px;
+     width: 24px;
+     height: 24px;
+}
+.iconup{
+     background-color: #FF620A;
+     padding: 8px;
+     border-radius: 50%;
+     width: 24px;
+     height: 24px;
+}
+.ending__center{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.hp h1{
+     font-family: 'Montserrat';
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 36px;
+     color: #424F7B;
+ 
+}
+.hp p{
+     font-family: 'Inter';
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     color: #848FAC;
+}
+.ending__bottom{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+} 
+.icondown{
+     margin-top: 20px;
+}
+.ending__bottom h1{
+     padding-top: 24px;
+     font-family: 'Montserrat';
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 36px;
+     color: #424F7B;
+}
+.comment__info h1{
+     font-family: 'Montserrat';
+     font-size: 36px;
+     font-weight: 600;
+     line-height: 54px;
+     letter-spacing: -0.01em;
+     text-align: center;
+     color: #192252;
+     margin-bottom: 62px;
+
+}
+.comment{
+     margin-top: 80px;
+     padding: 80px 0;
+}
+.comment__info .image{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 44px;
+}
+.comment__info p{
+     font-family: 'Inter';
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     text-align: center;
+     color: #848FAC;
+     width: 793.06px;
+     margin: 0 auto;
+}
+.name{
+     margin-top: 40px;
+     font-family: 'Inter';
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 30px;
+     text-align: center;
+     color: #192252;
+     margin-bottom: 24px;
+}
+.img1{
+     margin-bottom: 0;
+}
+.icons{
+     display: flex;
+     gap: 24px;
+}
+.title{
+     padding: 120px 42px;
+     background: #0B265A;
+
+}
+.title__left h1{
+     font-family: 'Montserrat';
+     font-size: 32px;
+     font-weight: 700;
+     line-height: 39.01px;
+     letter-spacing: -0.01em;
+     text-align: left;
+     color: #fff;
+}
+.title__left p{
+     width: 186px;
+     height: 84px;
+     font-family: 'Inter';
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 28px;
+     text-align: left;
+     margin-top: 13px;
+     margin-bottom: 36px;
+     color: #fff;
+}
+.right a{
+     display: block;
+}
+.title__right{
+     display: flex;
+     gap: 100px;
+}
+.title__content{
+     display: flex;
+     gap: 399px;
+}
+.right p{
+     font-family: 'Inter';
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 19.36px;
+     letter-spacing: 0.01em;
+     text-align: left;
+     color: #fff;
+}
+.right a{
+     margin-top: 24px;
+     color: #fff;
+}
+.rgt{
+     padding-left: 41px;
+}
